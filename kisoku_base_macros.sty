@@ -1,0 +1,15 @@
+\renewcommand{\labelenumii}{(\theenumii)}
+\renewcommand{\thesection}{Âè\arabic{section}¾Ï}
+\newcounter{zyou}
+\setcounter{zyou}{0}
+\newcommand{\zyoucount}{\refstepcounter{zyou}}
+\renewcommand{\thesubsection}{Âè\arabic{zyou}¾ò}
+
+\renewcommand{\subsection}{\zyoucount \@startsection{subsection}{2}{\z@}%
+   {1.5\Cvs \@plus.5\Cvs \@minus.2\Cvs}%
+   {.5\Cvs \@plus.3\Cvs}%
+   {\reset@font\large\bfseries}}
+
+\renewcommand{\thesubsubsection}{Âè\arabic{zyou}¾òÂè\arabic{subsubsection}¹à}
+
+\newcommand{\fusoku}{\renewcommand{\thesubsection}{}}
