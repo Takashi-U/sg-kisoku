@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.2-110415-2.3 (utf8.euc) (TeX Live 2011) (format=platex 2011.7.3)  7 AUG 2012 01:30
+This is e-pTeX, Version 3.1415926-p3.2-110415-2.3 (utf8.euc) (TeX Live 2011) (format=platex 2011.7.3)  7 AUG 2012 01:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -167,11 +167,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 [1
 
 ] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-(./ikuzi_template.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./ikuzi_template.aux) ) 
 Here is how much of TeX's memory you used:
  1053 strings out of 494163
  17091 string characters out of 3160587
